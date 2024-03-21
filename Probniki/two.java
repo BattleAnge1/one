@@ -25,7 +25,7 @@ public class two {
                 operation = '/';
             }
             if(under_char[i]!= 1){
-                throw new InputMismatchException("Должно быть одно действие");
+                System.out.println("Должно быть одно действие + - * /");
             }
         }
         String under_charString = String.valueOf(under_char);
@@ -104,7 +104,6 @@ public class two {
                     result = a / b;
                 } catch (ArithmeticException | InputMismatchException e) {
                     System.out.println("Exception : " + e);
-                    System.out.println("Only integer non-zero parameters allowed");
                     break;
                 }
                 break;
