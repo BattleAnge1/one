@@ -39,7 +39,7 @@ public class two {
             result = 0;
         } else {
             result = calculated(a, b, operation);
-            System.out.println("---Результат для римских цифр----");
+            System.out.println("Результат для римских цифр");
             String resultRoman = convertNumToRoman(result);
             System.out.println(stable00 + " " + operation + " " + string03 + " = " + resultRoman);
         }
